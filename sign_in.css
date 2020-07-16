@@ -14,21 +14,15 @@ form {
 	padding: 20px; color: #D8315B; border-radius: 30px;  max-width: 100%; padding-top: 20px; ;
     max-height: 100%; border: 1px solid #0A2463;
 }
-p {width:100%; margin-left:220px;
-	}
 
+p{color:#0A2463; text-align:center;  font-size:14px}
 
-a:link{
-	text-decoration: none;
-}
 @media only screen and (max-width: 600px){
 	form{
 		width: 90%; padding;auto;
 	}
 	
-	p {
-		margin-left: 60px;
-	}
+	p{}
 
 }
 
