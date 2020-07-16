@@ -17,60 +17,45 @@
 </head>
 
 <body>
-    <!-- nav -->
-    <nav class="nav">
-        <!-- nav-center -->
-        <div class="nav-center">
-            <!-- nav-header -->
-            <div class="nav-header">
-                <div class="logo-container">
-                    <img src="asset/imgs/Group 2.svg" alt="logo" class="logo">
-                    <img src="asset/imgs/LOUNGE.svg" alt="logo-text" class="logo-text">
-                </div>
-                <!-- nav-toggle -->
-                <button class="nav-toggle">
-                    <span class=" bars">
-                        <i class="fas fa-bars"></i> 
-                    </span>
-                        <span class="times">
-                        <i class="fas fa-times"></i>  
-                    </span>
-                </button>
-            </div>
-            <!-- links-container -->
-            <div class="links-container">
-                <ul class="links">
-                    <li>
-                        <a href="#home" class="link-item">Home</a>
-                    </li>
-                    <li>
-                        <a href="#home" class="link-item">Organization profile</a>
-                    </li>
-                    <li>
-                        <a href="#home" class="link-item">Suggestion</a>
-                    </li>
-                    <li>
-                        <a href="#home" class="link-item">Donation</a>
-                    </li>
-                    <li>
-                        <a href="#home" class="link-item">Contact us</a>
-                    </li>
-                    <li>
-                        <a href="#home" class="link-item" class="upper">FAQs</a>
-                    </li>
-                    <li class="search-egine">
-                        <!-- input field -->
-                        <button class="search" type="button"><i class="fas fa-search"></i></button>
-                    </li>
-                    <li class="button-container">
-                        <button type="button" class="btn upper">sign up</button>
-                        <button type="button" class="btn upper"> sign in</button>
-                    </li>
-                </ul>
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
 
-            </div>
-        </div>
-    </nav>
+      <a class="navbar-brand" href="#"><img src="asset/imgs/Group 2.svg">  <img src="asset/imgs/LOUNGE.svg"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse " id="collapsibleNavbar">
+    <ul class="navbar-nav ml-auto align-items-center">
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#">Organization Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#">Suggestions</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#">Donations</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#">Contact Us</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#">FAQs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link px-3 font-weight-bold" href="#"><p><span class="glyphicon glyphicon-search"></span></p></a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link px-3" href="#">
+          <button class="btn btn-default btn-sm" style="background-color:#D8315B; color:#fff">Sign Up</button></a>
+      </li>  
+      <a class="nav-link px-3" href="#">
+          <button class="btn btn-default btn-sm" style="background-color:#D8315B; color:#fff">Sign In</button></a>
+      </li>  
+    </ul>
+  </div>  
+</nav>
 
 <div class="container-fluid">
   <div class="body">
@@ -100,7 +85,7 @@
       </div></div>
 
       <div class="col-sm-4">
- <label><a href="#" style="color:#0A2463;">Forgot password?</label>
+ <label><a href="#" style="color:#0A2463;">Forgot password?</a></label>
 </div>
     </div>
   </div>
@@ -108,7 +93,7 @@
     <div class="col-sm-offset-2 col-sm-12">
       <button type="submit" class="btn btn-default btn-block">Submit</button>
     </div>
-    <p> Not a member? <b><a href="#"  style="color:#0A2463">Sign Up</a></b></p>
+    <p style="color:#0A2463"> Not a member? <b><a href="#"  style="color:#0A2463">Sign Up</a></b></p>
   </div>
 </form>
 </div>
