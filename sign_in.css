@@ -6,12 +6,12 @@
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  width: 100%; margin-top: 40px; padding-top: 150px;
+  width: 100%; margin-top: 40px; padding-top: 100px;
 }
 
 form {
 	width: 641px; height:480px; margin: auto; background-color: #c4c4c4; opacity: 0.9;
-	padding: 50px; color: #D8315B; border-radius: 30px;  max-width: 100%; padding-top: 20px; ;
+	padding: 20px; color: #D8315B; border-radius: 30px;  max-width: 100%; padding-top: 20px; ;
     max-height: 100%; border: 1px solid #0A2463;
 }
 
@@ -19,7 +19,7 @@ p{margin-left:130px; margin-top:10px; font-size:14px}
 
 @media only screen and (max-width: 600px){
 	form{
-		width: 80%; padding-left: 0px;
+		width: 90%; padding;auto;
 	}
 	
 	p{margin-left: 25px;}
